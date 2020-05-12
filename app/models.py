@@ -95,4 +95,3 @@ class Comment(db.Model):
     def get_comments(cls, id):
         comments = Comment.query.filter_by(pitch_id=id).all()
         return comments
- 
