@@ -1,0 +1,8 @@
+.env
+virtual/
+__pycache__/
+*.pyc
+instance/config.py
+.vscode/
+.idea
+*start.sh
