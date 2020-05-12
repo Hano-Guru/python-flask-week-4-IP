@@ -64,4 +64,3 @@ def logout():
     flash("You've been successfully registered!")
 
     return redirect(url_for("main.index"))
- 
